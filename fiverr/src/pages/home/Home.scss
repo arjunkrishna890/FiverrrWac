@@ -3,8 +3,48 @@
         background-color: #f1fdf7;
         display: flex;
         justify-content: center;
-        padding: 100px 0px; 
-        .container{
+        padding: 100px 0px;
+        &.dark {
+            background-color: #0d084d;
+      
+            h1 {
+              color: white !important;
+            }
+      
+            i {
+              font-weight: 300;
+            }
+      
+            p {
+              margin-bottom: 20px;
+              color: white !important;
+            }
+      
+            .title {
+              color: white !important;
+              font-weight: 300 !important;
+              font-size: 14px !important;
+            }
+            img{
+                width: 100%;
+            }
+            button {
+              background-color: #1dbf73;
+              border: none;
+              color: white;
+              padding: 10px 20px;
+              border-radius: 5px;
+              width: max-content;
+              font-size: 16px;
+              cursor: pointer;
+              margin-top: 20px;
+            }
+          }
+            
+      
+            
+          
+        .container{ 
             width: 1400px;
             display: flex;
             align-items: center;
@@ -19,6 +59,7 @@
                 &:last-child{
                     flex: 3;
                 }
+                
                 h1{
                     font-weight: 500;
                     margin-bottom: 10px;
@@ -36,7 +77,13 @@
                     gap: 10px;
                     font-weight: 500;
                     font-size: 18px;
-                    color: black;
+                    color: #666;
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        
+                      }
+                  
                 }
                 video{
                     width: 720px;
